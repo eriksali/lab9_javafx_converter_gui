@@ -2,7 +2,7 @@
 
 public class WeightConverter extends ConverterPane {
 	
-	private String title = "Temperature Converter";
+	private String title = "Weight Converter";
 	private String[] options = {
 			"kg - Kilogram", 
 			"hg - Hectogram", 
@@ -75,7 +75,7 @@ public class WeightConverter extends ConverterPane {
 			result = value * 28.34952;
 			break;
 		default:
-			textOut.setText("No such Temperature Unit");
+			textOut.setText("No such Weight Unit");
 		}
 		return result;
 	}	
@@ -87,23 +87,7 @@ public class WeightConverter extends ConverterPane {
 			result = value / 1000;
 			break;
 		case "hg":
-			result = value / 100;
-			break;
-		case "dag":
-			result = value / 10;
-			break;
-		case "g":
-			result = value;
-			break;
-		case "dg":
-			result = value * 10;
-			break;
-		case "cg":
-			result = value * 100;
-			break;
-		case "mg":
-			result = value * 1000;
-			break;
+		
 		case "lb":
 			result = value / 453.59237;
 			break;

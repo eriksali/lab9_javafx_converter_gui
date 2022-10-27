@@ -40,7 +40,7 @@ public class ConverterPane extends BorderPane {
 	private VBox vbox2;
 	private HBox hbox;
 	
-	private static Font titleFont = new Font(16);
+	private static Font titleFont = new Font(36);
 	private static Font font = new Font(14);
 	private static Font smallFont = new Font(12);
 	private int spacing = 10;
